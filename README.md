@@ -13,6 +13,9 @@ your local machine for development and testing purposes.
 ### Installing
 ```npm install```
 
+Don't worry this will only install the eslint for linting the code syntax.
+
+
 ### Starting the application
 ```node index.js```
 
