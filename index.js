@@ -34,9 +34,9 @@ function findTodosKeyword(file) {
                   + `.*\\b${keyword}\\b`,
       );
       data.split('\n').forEach((line) => {
-        const m = regex.test(line);
+        const isTODOKeyword = regex.test(line);
 
-        if (m) {
+        if (isTODOKeyword) {
           keywordsFound.push(file);
         }
       });
